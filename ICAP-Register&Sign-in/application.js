@@ -2,7 +2,7 @@ const submitbtn = document.querySelector(".submit");
 
 
 function checkstudentdetails() {
-    window.location.href = "parentdetails.html";
+    window.location.href = "parent.html";
 }
 
 submitbtn.addEventListener("click",function(e){

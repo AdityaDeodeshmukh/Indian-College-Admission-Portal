@@ -47,17 +47,15 @@ body {
                 1 4 5px  #02f2ff;
 }
 
-.imagecontainer{
-    height:150vh;
+.image-container{
+    height: 50vh;
 }
 
-
-.imagecontainer img{
-    margin-left: 10%;
+.image-container img{
     width: 80%;
-    height: 20%;
+    height: 50%;
+    margin-left: 12.5%;
 }
-
 
 
 
@@ -245,6 +243,17 @@ body {
         padding:0;
         font-family: sans-serif;
         background: #141e30;
+    }
+
+
+    .image-container{
+        height: 50vh;
+    }
+    
+    .image-container img{
+        width: 80%;
+        height: 30%;
+        margin-left: 12.5%;
     }
     
     
