@@ -36,7 +36,7 @@ One of the major advantages of such a solution is that a student does not have t
 
 In the long run, the entire system would be available as a mobile application with some more features aimed at improving the student’s life. In case a student has doubts, he/she would be able to contact alumni from that particular college and a common discussion forum would also be made available where like-minded students can interact with each other regarding the admission process. 
 
-## Ease of Implementation 
+## Challendes of Implementation 
 
 To implement this solution, there are a few challenges, the first being that of obtaining clearance from the institutes for carrying out such a task. The next task is to convince the authorities in the field of education and other higher authorities. The above mentioned are the major challenges in implementing this solution. However, since this application is for the students, hence with their support, it might become a possibility to make this application available for the masses. 
 
