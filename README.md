@@ -1,5 +1,5 @@
 # Indian-College-Admission-Portal
-Project Title: Student Admission Tracker
+![alt text](https://github.com/AdityaDeodeshmukh/Indian-College-Admission-Portal/blob/master/ICAP%20LOGO.png)
 ## Project Domain
 
 Fully functional web application
