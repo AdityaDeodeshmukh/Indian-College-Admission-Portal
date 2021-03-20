@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+/* @import url('/css/styles.css'); */
+
+
+html {
+    height: 100%;
+  }
+body {
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background: #141e30;
+}
+
+
+#firstname,
+#lastname,
+#emailaddress{
+    padding: 0.7em;
+    font-size: 1.3em;
+    font-family: 'Noto Sans', sans-serif;    
+    /* font-weight: 600; */
+    text-align: center;
+    color: white;
+    margin-left: 1%;
+}
+
+
+#fname,
+#lname,
+#emailid{
+    margin: 0.3em 0.7em;
+    width: 150%;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 2.5%;
+    background-color: black;
+    padding: 1em;
+    border-radius: 2em;
+    color: white;
+    padding: 1em;
+    border-radius: 2em;
+    color: white;
+    border: 2px solid rgb(0, 79, 153);
+    box-shadow: 0 0 5px #005155,
+                1 4 5px  #02f2ff;
+}
+
+.image-container{
+    height: 50vh;
+}
+
+.image-container img{
+    width: 80%;
+    height: 50%;
+    margin-left: 12.5%;
+}
+
+
+
+.container-fluid{
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    width: 70%;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 2em;
+}
+
+.container-fluid h1{
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
+
+#dateofbirth{
+    padding: 0.7em;
+    font-size: 1.3em;
+    font-family: 'Noto Sans', sans-serif;    
+    /* font-weight: 600; */
+    text-align: center;
+    color: white;
+    margin-left: 1%;
+}
+
+#dob{
+    margin: 0.3em 0.7em;
+    width: 150%;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 2.5%;
+    background-color: black;
+    padding: 1em;
+    border-radius: 2em;
+    color: white;
+    padding: 1em;
+    border-radius: 2em;
+    color: white;
+    border: 2px solid rgb(0, 79, 153);
+    box-shadow: 0 0 5px #005155,
+                1 4 5px  #02f2ff;
+}
+
+.gender p{
+    margin-left: 1.5%;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+    padding: 0.7em 0.01em;
+    /* font-weight: 600; */
+
+}
+
+.form-check
+.form-check-label{
+    color: white;
+    padding: 0.2em 1em;
+    font-size: 1.2em;
+
+}
+
+.form-check
+.form-check-input{
+    margin: 0.7em 0.2em;
+}
+
+
+
+
+#address,
+#address2,
+#inputState,
+#inputCity,
+#inputZip{
+    background-color: black;
+    border: none;
+    padding: 1em;
+    border-radius: 2em;
+    color: white;
+    margin-left: 0.5%;
+    padding: 1em;
+    border-radius: 2em;
+    color: white;
+    border: 2px solid rgb(0, 79, 153);
+    box-shadow: 0 0 5px #005155,
+                1 4 5px  #02f2ff;
+}
+
+#addressline1,#addressline2{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3em;
+    padding: 0.7em 0.2em;
+    margin-left: 0.5%;
+    /* font-weight: 600; */
+}
+
+#statename,#City{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3em;
+    padding: 0.7em 0.01em;
+    margin-left: 2.5%;
+}
+
+#zip{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3em;
+    padding: 0.7em 0.01em;
+    margin-left:5%;
+}
+
+#inputState{
+    background-color: black;
+    border: none;
+    padding: 1em;
+    border-radius: 2em;
+    color: white;
+    margin-left: 0.5%;
+    padding: 1em;
+    border-radius: 2em;
+    color: white;
+    border: 2px solid rgb(0, 79, 153);
+    box-shadow: 0 0 5px #005155,
+                1 4 5px  #02f2ff;
+}
+
+#inputCity{
+    background-color: black;
+    border: none;
+    padding: 1em;
+    border-radius: 2em;
+    color: white;
+    margin-left: 0.5%;
+    padding: 1em;
+    border-radius: 2em;
+    color: white;
+    border: 2px solid rgb(0, 79, 153);
+    box-shadow: 0 0 5px #005155,
+                1 4 5px  #02f2ff;
+}
+
+#inputZip{
+    background-color: black;
+    border: none;
+    padding: 1em;
+    border-radius: 2em;
+    color: white;
+    margin-left: 3%;
+    padding: 1em;
+    border-radius: 2em;
+    color: white;
+    border: 2px solid rgb(0, 79, 153);
+    box-shadow: 0 0 5px #005155,
+                1 4 5px  #02f2ff;
+}
+
+
+.submit{
+    margin: 1.5em 0.2em;
+    background-color: cadetblue;
+    color: white;
+    padding: 1em 0.7em;
+    outline: none;
+    border: none;
+    border-radius: 1.3em;
+    font-size: 1.1em;
+}
+
+
+@media all and (max-width:768px){
+    html {
+        height: 100%;
+      }
+    body {
+        margin:0;
+        padding:0;
+        font-family: sans-serif;
+        background: #141e30;
+    }
+
+
+    .image-container{
+        height: 50vh;
+    }
+    
+    .image-container img{
+        width: 80%;
+        height: 30%;
+        margin-left: 12.5%;
+    }
+    
+    
+    
+    
+    .container-fluid{
+        position: absolute;
+        top: 130%;
+        left: 50%;
+        width: 90%;
+        padding: 40px;
+        transform: translate(-50%, -50%);
+        background: rgba(0,0,0,.5);
+        box-sizing: border-box;
+        box-shadow: 0 15px 25px rgba(0,0,0,.6);
+        border-radius: 2em;
+    }
+    
+    .container-fluid h1{
+        margin: 0 0 30px;
+        padding: 0;
+        color: #fff;
+        text-align: center;
+    }
+    
+    #dateofbirth{
+        padding: 0.4em;
+        font-size: 1.3em;
+        font-family: 'Noto Sans', sans-serif;    
+        /* font-weight: 600; */
+        text-align: center;
+        color: white;
+        margin-left: 1.5%;
+    }
+
+    #fname,
+    #lname,
+    #emailid{
+        width: 85%;
+    }
+    
+    #dob{
+        margin: 0.3em 0.7em;
+        width: 85%;
+        font-family: 'Poppins', sans-serif;
+        margin-left: 1.5%;
+        background-color: black;
+        padding: 1em;
+        border-radius: 2em;
+        color: white;
+        padding: 1em;
+        border-radius: 2em;
+        color: white;
+        border: 2px solid rgb(0, 79, 153);
+        box-shadow: 0 0 5px #005155,
+                    1 4 5px  #02f2ff;
+    }
+    
+    .gender p{
+        margin-left: 3%;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.2em;
+        padding: 0.7em 0.01em;
+        /* font-weight: 600; */
+    
+    }
+    
+    .form-check
+    .form-check-label{
+        color: white;
+        padding: 0.5em 1.5em;
+        font-size: 1.2em;
+    
+    }
+    
+    .form-check
+    .form-check-input{
+        margin: 0.7em 0em;
+    }
+    
+    #address,
+    #address2,
+    #inputState,
+    #inputCity,
+    #inputZip{
+        background-color: black;
+        border: none;
+        padding: 1em;
+        border-radius: 2em;
+        color: white;
+        margin-left: 1.5%;
+        padding: 1em;
+        border-radius: 2em;
+        color: white;
+        border: 2px solid rgb(0, 79, 153);
+        box-shadow: 0 0 5px #005155,
+                    1 4 5px  #02f2ff;
+    }
+    
+    #addressline1,#addressline2{
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.3em;
+        padding: 0.7em 0.2em;
+        margin-left: 2.5%;
+        /* font-weight: 600; */
+    }
+    
+    #statename,#City,#zip{
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.3em;
+        padding: 0.55em 0.01em;
+        margin-left: 2.5%;
+    }
+    
+    #inputState{
+        background-color: black;
+        border: none;
+        padding: 1em;
+        border-radius: 2em;
+        color: white;
+        margin-left: 0.5%;
+        padding: 1em;
+        border-radius: 2em;
+        color: white;
+        border: 2px solid rgb(0, 79, 153);
+        box-shadow: 0 0 5px #005155,
+                    1 4 5px  #02f2ff;
+    }
+    
+    #inputCity{
+        background-color: black;
+        border: none;
+        padding: 1em;
+        border-radius: 2em;
+        color: white;
+        margin-left: 0.5%;
+        padding: 1em;
+        border-radius: 2em;
+        color: white;
+        border: 2px solid rgb(0, 79, 153);
+        box-shadow: 0 0 5px #005155,
+                    1 4 5px  #02f2ff;
+    }
+    
+    #inputZip{
+        background-color: black;
+        border: none;
+        padding: 1em;
+        border-radius: 2em;
+        color: white;
+        margin-left: 0.5%;
+        padding: 1em;
+        border-radius: 2em;
+        color: white;
+        border: 2px solid rgb(0, 79, 153);
+        box-shadow: 0 0 5px #005155,
+                    1 4 5px  #02f2ff;
+    }
+    
+    
+    .submit{
+        margin: 1.5em 0.7em;
+        background-color: cadetblue;
+        color: white;
+        padding: 1em 0.7em;
+        outline: none;
+        border: none;
+        border-radius: 1.3em;
+        font-size: 1.1em;
+        width: 90%;
+    }
+    
+}

@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #000000;
+    color: rgb(212, 212, 212);
+    height: 15.5em;
+    width: 100%;
+}
+
+
+nav{
+    display: flex;
+    float: right;
+    /* position: fixed; */
+}
+
+nav img{
+    position: absolute;
+    width: 20%;
+    height: 10%;
+    left: 40%;
+    top: 5%;
+}
+
+
+nav ul{
+    display: flex;
+    margin-top: -5em;
+}
+
+nav ul li{
+    list-style: none;
+    /* margin: 10px; */
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    /* text-transform: uppercase; */
+    font-family: 'Roboto', sans-serif;
+    padding: 25px;
+    font-size: 21.5px;
+    /* font-weight: 600; */
+    
+}
+
+
+#brand .contactus, #brand .lang{
+    /* position: absolute; */
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 1em;
+    margin-left: 1.5em;
+    font-size: 25.5px;
+    letter-spacing: 1.2px;
+}
+
+#brand .contactus span{
+    padding: 0.5em;
+}
+
+#brand .contactus span img{
+    width: 2%;
+    height: 2%;
+}
+
+
+#brand .lang span {
+    padding: 0.5em;
+}
+
+#brand .lang span img{
+    width: 2%;
+    height: 2%;
+}
+
+#brand .homeheading{
+    margin-top: 1.5%;
+    margin-left: 2.6%;
+    font-size: 2em;
+}
+
+#brand .homeheading::before{
+    content: "";
+    border: 5px solid yellow;
+    margin: 1em 0.5em;
+}
+
+#brand .searchbar{
+    margin: 1em 3.5em;
+    padding: 1em;
+    border-radius: 2em;
+    width: 30%;
+    outline: none;
+    border: none;
+}
+
+
+#showcase{
+    height: 90vh;
+    text-align: center;
+    background: url('homeimg.png');
+    /* background-position-x: center; */
+    background-position-y: -55px;
+    background-repeat: no-repeat;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+.container h1{
+    margin-top: 10%;
+    margin-bottom: 0em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 45px;
+    /* color: rgb(255, 0, 119); */
+    color: azure;
+
+}
+
+#showcase .container p{
+    color: rgb(236, 236, 236);
+    font-size: 3em;
+    font-weight: 700;
+    font-family: 'Noto Sans JP', sans-serif;
+    letter-spacing: 1.1px;
+    margin-top: 10px;
+   
+
+}
+
+.getstarted{
+    background-color: rgb(219, 219, 1);
+    /* color: white; */
+    padding: 0.8em 1.5em;
+    font-size: 1.5em;
+    font-weight: bolder;
+    margin-top: 2%;
+    margin-left:auto;
+    border-radius: 0.5em;
+    width: 20%;
+    border: none;
+    outline: none;
+}
+
+#about{
+    height: 90vh;
+    background-color: black;
+    color: white;
+    /* margin-top: 10%; */
+}
+
+
+.about-container h1{
+    text-align: center;
+    font-size: 3.5em;
+    padding: 0.5em;
+    border-bottom: yellow;
+    border-width: 50%;
+}
+
+.aboutline { 
+    position: absolute;
+    border-top:5px solid rgb(235, 252, 3); 
+    width: 10%;
+    left: 45%;
+    border-radius: 0.5em;
+}
+
+
+.about-container p{
+    text-align: center;
+    border: 2px solid white;
+    font-size: 2em;
+    padding: 1.5em;
+    margin: 2em 5em;
+    border-radius: 0.7em;
+}
+
+
+#featured{
+    height: 290vh;
+    background-color: black;
+    width: 100%;
+    
+}
+
+#featured h1{
+    color: white;
+    text-align: center;
+    padding-top: 3.5%;
+    font-size: 2.5em;
+}
+
+.featuredline { 
+    position: absolute;
+    border-top:2px solid rgb(255, 255, 255); 
+    width: 85%;
+    left: 8%;
+    border-radius: 0.5em;
+}
+
+.img1{
+    width: 90%;
+    height: 30%;
+}
+
+
+.img2{
+    /* position: absolute; */
+    width: 90%;
+    height: 30%;
+    margin-top: -10em;
+    margin-right: 1em;
+    float: right;
+}
+
+.img3{
+    width: 90%;
+    height: 20%;
+    margin-top: -10em;
+    margin-right: 1em;
+}
+
+
+#contact{
+    background-color: yellow;
+    height: 40vh;
+}
+
+.ques{
+    float: left;
+    list-style:none;
+    margin: 3em;
+}
+
+.ques li{
+    padding: 0.7em;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.icapdetails .icap{
+    /* text-align: center; */
+    /* float: center; */
+    list-style: none;
+    padding: 0.7em;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-left: 40%;
+    padding-top: 5%;
+    
+}
+
+.tel,.mail{
+    list-style: none;
+    padding: 0.7em;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-left: 40%;
+    /* padding-top: 5%; */
+}
+
+
+.connected{
+    float: right;
+    margin-right: 10%;
+    /* background: yellow; */
+}
+
+.connected h4{
+    margin-top: -7em;
+    padding-bottom: 0.7em;
+    font-size: 1.5em;
+}
+
+.typebox{
+    padding: 0.7em;
+    border: none;
+    background-color: yellow;
+    border: 2px solid black;
+    width: 150%;
+}
